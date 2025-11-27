@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>On The Go Cafe — Home</title>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+<style>
+:root{--bg:#faf7f3;--card:#fff;--muted:#666;--accent:#b65a2a;--accent-2:#e6c9b2;--radius:12px;--max:1100px;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+*{box-sizing:border-box} 
+body{margin:0;color:#222;line-height:1.45;background:url('cafe-background.jpg') no-repeat center center fixed;background-size:cover;}
+.container{max-width:var(--max);margin:24px auto;padding:20px}
+header{display:flex;gap:16px;align-items:center} 
+.brand{display:flex;flex-direction:column} 
+.brand h1{margin:0;font-size:1.6rem;letter-spacing:0.6px} 
+.tag{color:var(--muted);font-size:0.95rem}
+nav{margin-left:auto} nav a{margin-left:12px;text-decoration:none;color:var(--accent)}
+.hero{display:flex;gap:24px;align-items:center;margin-top:18px} 
+.hero .intro{background:linear-gradient(180deg,var(--card),#fff);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(10,10,10,0.05)} 
+.hero .cta{margin-top:12px}
+@media(max-width:880px){header{flex-direction:column;align-items:flex-start} nav{margin-left:0;margin-top:6px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="brand">
+    <h1>On The Go Cafe</h1>
+    <div class="tag">Quick, fresh coffee & grab‑and‑go bites</div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="visit.html">Visit</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="intro">
+    <h2>Welcome — fast, fresh, and on the move</h2>
+    <p>We serve coffee, pastries, sandwiches, and snacks made for people who are always on the go. Quick service, partnered with major delivery platforms. Browse our menu below.</p>
+    <div class="cta"><a href="menu.html" style="text-decoration:none;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;">See Menu</a></div>
+  </div>
+</section>
+
+<footer style="margin-top:18px;text-align:center;color:var(--muted)">
+  <small>© On The Go Cafe — Built for quick browsing.</small>
+</footer>
+</div>
+</body>
+</html>
